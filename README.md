@@ -1,4 +1,4 @@
-# Tsmart - Personalized Education and E-Learning Microservice App
+# Educore - Personalized Education and E-Learning Microservice App
 
 ## Table of Contents
 
@@ -12,34 +12,34 @@
 
 ## Introduction
 
-Tsmart is a Personalized Education and E-Learning microservice app that empowers educational institutions and online learning platforms to deliver personalized content and learning experiences to their users. The app provides a set of microservices that enable seamless integration of personalized learning features into existing educational platforms.
+Educore is a Personalized Education and E-Learning microservice app that empowers educational institutions and online learning platforms to deliver personalized content and learning experiences to their users. The app provides a set of microservices that enable seamless integration of personalized learning features into existing educational platforms.
 
 ## Features
 
-- Personalized Learning Paths: Tsmart offers dynamic learning paths tailored to each student's individual needs and learning pace.
+- Personalized Learning Paths: Educore offers dynamic learning paths tailored to each student's individual needs and learning pace.
 - Content Recommendation: Utilize machine learning algorithms to recommend relevant and engaging learning materials based on the student's preferences and progress.
 - Progress Tracking: Easily monitor students' learning progress, identify knowledge gaps, and provide targeted support.
 - Interactive Assessments: Create interactive quizzes and assessments to assess students' understanding and knowledge retention.
-- Multi-platform Support: Tsmart is designed to work across various platforms, including web browsers, Android, and iOS.
+- Multi-platform Support: Educore is designed to work across various platforms, including web browsers, Android, and iOS.
 - Scalable Architecture: The microservice architecture ensures scalability and flexibility to handle large-scale e-learning platforms.
 
 ## Installation
 
-To install and use Tsmart, follow these steps:
+To install and use Educore, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/tsmart-app/tsmart.git`
+1. Clone the repository: `https://github.com/chigurusameeksha/EduCore.git`
 2. Install dependencies: `npm install`
 3. Configure the environment variables: Copy `.env.example` to `.env` and set the necessary configuration parameters.
 4. Start the microservices: `npm start`
 
 ## Usage
 
-Tsmart provides a RESTful API for communication with the microservices. Here's a basic example of how to use Tsmart in your application:
+Educore provides a RESTful API for communication with the microservices. Here's a basic example of how to use Educore in your application:
 
 ```javascript
 import axios from 'axios';
 
-const baseURL = 'https://api.tsmart.com';
+const baseURL = 'https://api.Educore.com';
 
 // Example API call to get personalized content recommendations
 async function getRecommendations(studentId) {
@@ -57,11 +57,11 @@ For more detailed usage instructions and API endpoints, please refer to the [API
 
 ## API Documentation
 
-For detailed information on the available API endpoints and their usage, please refer to the [API documentation](https://api.tsmart.com/docs).
+For detailed information on the available API endpoints and their usage, please refer to the [API documentation](https://api.Educore.com/docs).
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to Tsmart, follow these steps:
+We welcome contributions from the community! To contribute to Educore, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature: `git checkout -b feature-name`
@@ -69,32 +69,31 @@ We welcome contributions from the community! To contribute to Tsmart, follow the
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request.
 
-Please ensure that you've read and adhered to our [Code of Conduct](https://tsmart.com/code-of-conduct) before contributing.
 
 ## License
 
-Tsmart is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT).
+Educore is open-source software licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Deployment
 
-Tsmart can be deployed on a cloud service or on-premises server. For easy scalability and maintenance, we recommend using a cloud-based solution like AWS, Google Cloud, or Azure. You can deploy the microservices using containerization technologies like Docker and Kubernetes.
+Educore can be deployed on a cloud service or on-premises server. For easy scalability and maintenance, we recommend using a cloud-based solution like AWS, Google Cloud, or Azure. You can deploy the microservices using containerization technologies like Docker and Kubernetes.
 
 Before deploying to a production environment, ensure that you have configured the necessary environment variables with appropriate values, such as API keys, database connection strings, and other sensitive information.
 
 ## Technology Stack
 
-Tsmart is built using modern technologies and frameworks to ensure optimal performance and maintainability. The main components of our tech stack include:
+Educore is built using modern technologies and frameworks to ensure optimal performance and maintainability. The main components of our tech stack include:
 
 - Node.js: The backend is powered by Node.js, which provides a scalable and efficient runtime environment for building server-side applications.
 - Express.js: We use Express.js as the web application framework to handle routing, middleware, and API endpoints.
-- MongoDB: Tsmart utilizes MongoDB as the NoSQL database for storing student progress, content metadata, and user preferences.
+- MongoDB: Educore utilizes MongoDB as the NoSQL database for storing student progress, content metadata, and user preferences.
 - Machine Learning: To enable personalized content recommendations, we leverage machine learning algorithms and data analysis techniques.
 - React: The frontend, if applicable, is developed using React, a popular JavaScript library for building user interfaces.
 - Redux: If required, we use Redux for state management, ensuring a predictable and scalable application state.
 
 ## Testing
 
-Tsmart includes a comprehensive test suite to ensure the reliability and functionality of the microservices. We employ unit testing, integration testing, and end-to-end testing to validate the app's behavior.
+Educore includes a comprehensive test suite to ensure the reliability and functionality of the microservices. We employ unit testing, integration testing, and end-to-end testing to validate the app's behavior.
 
 To run the tests, use the following command:
 
@@ -103,37 +102,6 @@ npm test
 ```
 
 We encourage contributors to write tests for new features and bug fixes to maintain code quality and prevent regressions.
-
-## Security
-
-Security is a top priority at Tsmart. We implement various security measures, including data encryption, input validation, and role-based access control, to safeguard user data and ensure a secure learning environment.
-
-As part of our commitment to security, we conduct regular security audits and follow best practices in the industry to address potential vulnerabilities proactively.
-
-## Support and Community
-
-For any questions, feedback, or support inquiries, join our community on our [Discord server](https://discord.com/tsmart) or visit our [website](https://tsmart.com) for additional resources and documentation.
-
-You can also report bugs or request new features through our [GitHub repository](https://github.com/tsmart-app/tsmart/issues). We value your feedback, and our team actively monitors the repository.
-
-## Acknowledgments
-
-We would like to express our appreciation to the open-source community for their valuable contributions and inspiring projects that have influenced the development of Tsmart.
-
-## About Tsmart
-
-Tsmart was founded in 2023 with a mission to revolutionize personalized education and provide learners with tailored learning experiences. Our team is dedicated to leveraging cutting-edge technologies to shape the future of e-learning.
-
-Connect with us:
-
-- Website: [https://tsmart.com](https://tsmart.com)
-- Twitter: [@TsmartHQ](https://twitter.com/TsmartHQ)
-- LinkedIn: [Tsmart](https://www.linkedin.com/company/tsmart)
-
-
----
-
-Feel free to continue customizing the README file to provide more specific information about your app's features, development process, and any other relevant details. If you have any other specific requests or need further assistance, let me know! I'm here to help. Best of luck with your Tsmart project!
 
 ## Project Structure
 
@@ -439,7 +407,7 @@ Refer to [Doing API-First development][] for more details.
 
 ### Packaging as jar
 
-To build the final jar and optimize the Tsmart application for production, run:
+To build the final jar and optimize the Educore application for production, run:
 
 ```
 ./mvnw -Pprod clean verify
@@ -592,4 +560,4 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [Doing API-First development]: https://www.jhipster.tech/documentation-archive/v8.0.0-beta.2/doing-api-first-development/
 
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Tsmart">Tsmart</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Educore">Educore</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
